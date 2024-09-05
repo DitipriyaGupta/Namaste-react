@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
+
 const heading = React.createElement(
   "h1",
   {
@@ -5,7 +8,6 @@ const heading = React.createElement(
   },
   "Hello World"
 );
-console.log(heading);
 // const root=ReactDOM.createRoot(document.getElementById("root"))
 // root.render(heading)
 
@@ -35,4 +37,5 @@ const parent = React.createElement(
 );     
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(parent); 
+
