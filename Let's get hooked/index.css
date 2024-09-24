@@ -1,0 +1,62 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width:180px 
+}
+.nav-items > ul{
+    display:flex;
+    padding-right: 40px;
+    list-style-type: none;
+}
+.nav-items >ul>li{
+    padding:10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.card {
+    width: 328px;
+    height: 350px; 
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(211, 211, 211, 0.19);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h4{
+    color:#1c1c1c;
+    font-size: 17px;
+    font-weight: 500;
+}
+.card >p{
+    color:#696969;
+    font-size: 14px;
+}
+.card-logo{
+    width:328px;
+    height:248px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.resturant-container{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    align-items: center;
+}
+.filter-btn{
+  border-radius: 10px;
+  /* height: 50px;
+  width:50px; */
+  height:40px;
+  background:#ffff;
+  color:#696969;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
